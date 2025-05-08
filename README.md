@@ -8,4 +8,10 @@ Our project consists of:
 - Deep data analysis using econometrics
 - Evaluating models and it's robustness
 - Interpretation via average marginal effects and quantile coefficients
-- Developing our own model of gaussian mixture (without realisation) 
+- Developing our own model of gaussian mixture (without realisation)
+
+In `data` you can find 
+- `dataset_for_regression.csv` - final dataset which was used in model estimation. All preprocessing stages you can find in our main `.ipynb`.
+- `processed_df.csv` - clean dataset without missing data and irrelevant features.
+- `parsed_data.csv` - raw data from DrHead website.
+- `doctorhead_report.html` - extensive EDA on raw parsed data.
